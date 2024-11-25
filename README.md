@@ -32,10 +32,9 @@ O serviço foi projetado para rodar em ambiente local, permitindo a interação 
    git clone <URL_DO_REPOSITÓRIO>
 2. Certifique-se de ter o Java 17 ou superior instalado.
 
-3. Configure os seguintes pré-requisitos antes de rodar o serviço:
-
-    Identidades Verificadas no SES: Apenas e-mails cadastrados e verificados no Amazon SES podem ser usados como remetente e destinatário.
-    Credenciais AWS: Obtenha as access key e secret key do seu usuário no IAM da AWS e configure no arquivo application.properties:
+3. Configure os seguintes pré-requisitos antes de rodar o serviço
+Identidades Verificadas no SES: Apenas e-mails cadastrados e verificados no Amazon SES podem ser usados como remetente e destinatário.
+Credenciais AWS: Obtenha as access key e secret key do seu usuário no IAM da AWS e configure no arquivo application.properties:
 
     aws.access-key=<sua-access-key>
     aws.secret-key=<sua-secret-key>
@@ -57,9 +56,9 @@ mvn spring-boot:run
   "body": "Corpo do e-mail"
 }
 ## ⚠️ Observações Importantes
-    O serviço funciona apenas em rede local.
-    Certifique-se de que a conexão com a internet esteja funcional e que não haja bloqueios no firewall ou proxy para o acesso à AWS.
-    Configure corretamente o arquivo application.properties com suas credenciais e região AWS para garantir a operação do SES.
+O serviço funciona apenas em rede local.
+Certifique-se de que a conexão com a internet esteja funcional e que não haja bloqueios no firewall ou proxy para o acesso à AWS.
+Configure corretamente o arquivo application.properties com suas credenciais e região AWS para garantir a operação do SES.
     
 ## 👩‍💻 Contribuindo
 
