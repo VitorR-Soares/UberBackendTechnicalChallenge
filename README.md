@@ -5,7 +5,7 @@
 ## Descrição
 
 Este projeto consiste em um **microsserviço de disparo automático de e-mails** utilizando a API do **Amazon Simple Email Service (SES)**.  
-O serviço foi projetado para rodar em ambiente local, permitindo a interação com outros sistemas da Uber, como **pagamentos** e **avaliação de corridas**, e possibilitando o envio de e-mails de forma prática e automatizada.
+O serviço foi projetado para rodar em ambiente local, permitindo a interação com outros sistemas da Uber, como **pagamentos** e **avaliação de corridas**, ao possibilitar o envio de e-mails de forma prática e automatizada, utilzando princípios de **arquitetura limpa**.
 
 ## 🚀 Funcionalidades
 
